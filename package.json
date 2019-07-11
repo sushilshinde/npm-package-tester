@@ -1,0 +1,13 @@
+{
+  "name": "npm-package-tester",
+  "version": "1.0.1",
+  "description": "This is the npm package testing project/client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cc":"rm -rf node_modules package-lock.json && npm cache clear -f",
+    "install-local" :"npm run cc && npm link ../workflow-npm-new" 
+  },
+  "author": "Sushil Shinde <shinde.sushil@gmail.com> (https://github.com/sushilshinde)",
+  "license": "ISC"
+}
